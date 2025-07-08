@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 class GearDetector:
     def __init__(self):
-        self.model = YOLO("D:/PyCharm/GearDefect/models/yolov11s_gear.pt")
+        self.model = YOLO("best.pt")
         self.classes = ['pitting', 'indentation', 'scuffing', 'spalling']
 
     def detect(self, img_path):

@@ -8,7 +8,7 @@ class DefectApp(QMainWindow):
         super().__init__()
         self.setWindowTitle("齿轮缺陷检测系统")
         self.detector = GearDetector()
-        self.test_dir = "D:/PyCharm/GearDefect/test"
+        self.test_dir = "test"
 
         # UI组件初始化
         self.image_label = QLabel()
