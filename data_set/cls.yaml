@@ -1,0 +1,12 @@
+# 数据集路径
+path: ./data_set
+train: train
+val: val
+test: test
+
+# 类别信息
+names: [indentation, pitting, scuffing, spalling]
+
+# 模型配置
+nc: 4  # 类别数量
+scale: 's'  # 使用YOLOv11s模型
